@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chính sách Quyền riêng tư | BarMaster</title>
+  <style>
+    :root {
+      --bg: #0F172A;
+      --card-bg: #1E293B;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --accent: #F59E0B;
+      --border: #334155;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: var(--card-bg);
+      padding: 40px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+    h1 {
+      font-size: 28px;
+      color: var(--accent);
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 24px;
+      margin-bottom: 12px;
+      color: var(--text-main);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+    p, ul {
+      margin-bottom: 16px;
+      color: #CBD5E1;
+      font-size: 15px;
+    }
+    ul {
+      padding-left: 24px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .highlight-box {
+      background-color: rgba(245, 158, 11, 0.1);
+      border-left: 4px solid var(--accent);
+      padding: 16px;
+      border-radius: 6px;
+      margin: 20px 0;
+    }
+    .footer {
+      margin-top: 32px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Chính sách Quyền riêng tư (Privacy Policy)</h1>
+    <div class="subtitle">Ứng dụng: <strong>BarMaster: Quản lý Quán Bar</strong> | Cập nhật lần cuối: 22/10/2026</div>
+
+    <div class="highlight-box">
+      <strong>Cam kết cốt lõi:</strong> BarMaster là ứng dụng hoạt động 100% CỤC BỘ (Offline-First). Chúng tôi <strong>KHÔNG</strong> thu thập, lưu trữ hay chia sẻ bất kỳ dữ liệu cá nhân nào của bạn lên bất kỳ máy chủ từ xa nào.
+    </div>
+
+    <h2>1. Thu thập và Xử lý Dữ liệu</h2>
+    <p>BarMaster được thiết kế để hoạt động hoàn toàn độc lập mà không cần kết nối Internet:</p>
+    <ul>
+      <li><strong>Dữ liệu kinh doanh:</strong> Toàn bộ thực đơn, đơn hàng, dữ liệu kho nguyên liệu, thông tin đặt bàn, sổ quỹ và danh sách nhân viên được lưu trữ duy nhất trên cơ sở dữ liệu SQLite tại chính thiết bị của bạn.</li>
+      <li><strong>Không có tài khoản máy chủ:</strong> Ứng dụng không yêu cầu đăng ký tài khoản đám mây và không truyền dữ liệu ra bên ngoài.</li>
+      <li><strong>Không chia sẻ với bên thứ ba:</strong> Chúng tôi không tích hợp bất kỳ dịch vụ theo dõi (analytics/tracking) hay quảng cáo nào của bên thứ ba.</li>
+    </ul>
+
+    <h2>2. Các Quyền Truy Cập Thiết Bị</h2>
+    <p>Để cung cấp đầy đủ các tính năng vận hành cho quán bar, ứng dụng có thể yêu cầu một số quyền hệ thống sau:</p>
+    <ul>
+      <li><strong>Bluetooth (BLUETOOTH / BLUETOOTH_CONNECT / BLUETOOTH_SCAN):</strong> Dùng để quét và kết nối với máy in hóa đơn nhiệt Bluetooth (ESC/POS) để in bill thanh toán và phiếu pha chế.</li>
+      <li><strong>Bộ nhớ / Quản lý tệp tin (READ / WRITE EXTERNAL STORAGE):</strong> Chỉ được kích hoạt khi bạn chủ động nhấn tính năng "Sao lưu dữ liệu" (Backup) hoặc "Khôi phục dữ liệu" (Restore) từ tệp cơ sở dữ liệu.</li>
+    </ul>
+
+    <h2>3. An toàn và Sao lưu Dữ liệu</h2>
+    <p>Vì toàn bộ dữ liệu lưu trữ trực tiếp trên thiết bị của bạn, bạn hoàn toàn làm chủ dữ liệu của mình. Để phòng ngừa rủi ro hỏng hóc hoặc mất thiết bị, chúng tôi khuyến khích người dùng thường xuyên xuất file sao lưu (backup) và lưu trữ ở nơi an toàn (USB hoặc ổ đĩa cá nhân).</p>
+
+    <h2>4. Quyền riêng tư của Trẻ em</h2>
+    <p>Ứng dụng không hướng tới hoặc chủ động thu thập thông tin từ trẻ em dưới 13 tuổi. Ứng dụng là phần mềm công cụ quản lý bán hàng dành cho doanh nghiệp và nhân viên quán bar.</p>
+
+    <h2>5. Thay đổi Chính sách</h2>
+    <p>Nếu có bất kỳ thay đổi nào trong chính sách quyền riêng tư, chúng tôi sẽ cập nhật trực tiếp tại tệp này và thông báo trong phần ghi chú cập nhật phiên bản của ứng dụng.</p>
+
+    <h2>6. Liên hệ</h2>
+    <p>Nếu bạn có bất kỳ câu hỏi nào về Chính sách quyền riêng tư này, vui lòng liên hệ với chúng tôi qua:</p>
+    <ul>
+      <li>Email: <a href="mailto:support@barmaster.app">support@barmaster.app</a></li>
+      <li>Ứng dụng: BarMaster POS & Bar Management</li>
+    </ul>
+
+    <div class="footer">
+      &copy; 2026 BarMaster. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>
